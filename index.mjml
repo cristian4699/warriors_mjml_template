@@ -2,7 +2,9 @@
     <mj-head>
         <mj-title>NBA Template</mj-title>
         <mj-style>
-
+            .wrapper_class{
+                padding-bottom: 22px !important;
+            }
             .wrapper_class > div {
                 padding: 40px 115px;
             }
@@ -117,6 +119,10 @@
                 padding: 10px !important;
             }
 
+            .section_6 > table > tbody > tr > td{
+                padding-bottom: 12px !important;
+            }
+
             .text-class > div{
                 text-align: center !important;
             }
@@ -130,7 +136,7 @@
             }
             
             .mini_plan_class > table > tbody > tr:nth-child(2) > td{
-                padding: 28px 38px !important;
+                padding: 27px 38px !important;
             }
 
             .mini_plan_text_class{
@@ -145,9 +151,33 @@
                 padding: 0 !important;
             }
 
+            .section_7_title{
+                padding: 20px 25px 3px !important;
+            }
+
             .section_7_title > div{
                 text-align: center !important;
                 font-weight: 700 !important;
+            }
+
+            .section_7_social > table{
+                margin: 0 4px !important;
+            }
+
+            .section_8_text_1 > div{
+                text-align: center !important;
+            }
+
+            .section_8_text_2{
+                padding: 43px 25px 12px !important;
+            }
+
+            .section_3_text_3{
+                padding: 11px 25px !important;
+            }
+
+            .section_3_text_4{
+                padding: 11px 25px !important;
             }
 
         </mj-style>
@@ -250,11 +280,56 @@
                     <mj-text css-class="section_7_title" font-family="sans-serif" font-size="20px" line-height="1">
                         Follow Us
                     </mj-text>
-                    <mj-social css-class="section_7_social">
+                    <mj-social css-class="section_7_social" font-size="15px" icon-size="30px" mode="horizontal">
+                        <mj-social-element name="instagram" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Social-Icon-Instagram-v2.png" alt="Instagram" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a443093&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=_eb5NEbkRDAyWlBsC7Ewpo15GEuMO0Fla1WacjqugCI" background-color="#FDC62B">
+                            
+                        </mj-social-element>
+                        <mj-social-element name="x" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Social-Icon-Twitter-v2.png" alt="Twitter" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a443094&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=UZOkc0-KCNN_ZjsauoBMzUrMp5pC8N3KxdScn-WVXJ8" background-color="#FDC62B">
+                            
+                        </mj-social-element>
+                        <mj-social-element name="youtube" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Social-Icon-YouTube-v2.png" alt="Youtube" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a443095&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=UGiNLR_9FDb0artGwFzZdnivZeereACZTXa7R1CTkkw" background-color="#FDC62B">
                         
+                        </mj-social-element>
+                        <mj-social-element name="facebook" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Social-Icon-Facebook-v2.png" alt="Facebook" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a443096&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=NYwxW6jJyJTimtx36N2trGsSR2Sj3nV6pY73b_IHZpY" background-color="#FDC62B">
+                            
+                        </mj-social-element>
+                        <mj-social-element name="ticktok" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Logo-TikTok-250x250-v2-v2.png" alt="TikTok" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a443097&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=5vk9We0Mvl-sUw156VHLWhdl7hRUA_PoZ33jqZ0q2Dk" background-color="#FDC62B">
+                            
+                        </mj-social-element>
+                        <mj-social-element name="warriors" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Logo-App-250x250-v4-v2.png" alt="Warriors webpage" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a443098&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=ZFAJj14S6nHEOkCP_5LuZea2gtZVyD461PFx4eKYPCc" background-color="#FDC62B">
+                            
+                        </mj-social-element>
+                        <mj-social-element name="warriors" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Logo-JapanIG-250x250-v2.png" alt="Warriors webpage 2" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a443099&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=2bJEgKwnt7bk37mk4HiYw2S1zfVrXaayU862MqFttQw" background-color="#FDC62B">
+                            
+                        </mj-social-element>
+                        <mj-social-element name="warriors" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Logo-JapanTW-250x250-v2.png" alt="undefined" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a44309a&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=ldnOQZYRVHPnqqC4uyxf_5bqim4pGpfJi5TtdSZK66A" background-color="#FDC62B">
+                            
+                        </mj-social-element>
+                        <mj-social-element name="warriors" src="https://cdn.warriors.com/crm/2021-22/GSW/Essentials/Logo-GSE-250x250-v2.png" alt="undefined" href="https://t.email.warriors.com/r/?id=h45cf4349,1a43eb20,1a44309b&e=dXRtX3NvdXJjZT1hZG9iZSZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1HU1ctRU9TLVJlZ3VsYXItU2luZ2xlLVByZXNhbGUtMjAyNDA5MDQmY21fZW09JnNlZ2NvZGU9&s=Vx5AlyXZWwCP1A7GkTi7lPchnYrdPyDpvsO_uZcm-ik" background-color="#FDC62B">
+                            
+                        </mj-social-element>
                     </mj-social>
-                    </mj-column>
+                </mj-column>
             </mj-section>
         </mj-wrapper>
+        <mj-section css-class="section_8" padding="35px 129px">
+            <mj-column width="100%">
+                <mj-text css-class="section_8_text_1">
+                    *Compared to purchases of single game tickets from the Golden State Warriors
+                </mj-text>
+                <mj-text css-class="section_8_text_2" padding="43px 25px" font-family= "sans-serif">
+                    <a style="color:blue; font-weight:700">Click here</a> to unsubscribe or manage your email preferences.
+                </mj-text>
+                <mj-text css-class="section_8_text_3" font-family= "sans-serif">
+                    <span style="color:#000000; font-weight:700;">© 2024 Golden State Warriors, LLC. •&nbsp;</span> 1 Warriors Way, San Francisco, CA 94158
+                </mj-text>
+                <mj-text css-class="section_8_text_4" font-family= "sans-serif">
+                    This email was sent to <a style="color:blue; font-weight:700">hello@SmilesDavis.yeah<a> by Golden State Warriors.
+                </mj-text>
+                <mj-text css-class="section_8_text_5" font-family= "sans-serif">
+                    <a style="color:blue; font-weight:700">View In Browser</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
     </mj-body>
 </mjml>
